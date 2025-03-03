@@ -102,22 +102,22 @@ const LaptopModel = () => {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with product management, cart functionality, and payment processing using Stripe.",
+    title: "Examination Platform",
+    description: "AI-powered examination platform with real-time feedback, secure logins, and dynamic question handling.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/Baruah123/Exam-Master",
+    demo: "https://exam-master-pearl.vercel.app/",
     model: "laptop"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, drag-and-drop interface, and team collaboration features.",
+    title: "BlockchainGallery",
+    description: "A decentralized platform showcasing digital art, secured by blockchain for authenticity and ownership.",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
     tags: ["React", "Firebase", "Tailwind CSS", "DnD"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/Baruah123/BlockchainGallery",
+    demo: "https://blockchain-gallery.vercel.app/",
     model: "cube"
   },
   {
@@ -255,7 +255,7 @@ const Projects: React.FC = () => {
           className="text-center mt-12"
         >
           <a 
-            href="https://github.com" 
+            href="https://github.com/Baruah123" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition-colors"

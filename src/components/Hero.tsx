@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#projects"
+              href="https://github.com/Baruah123"
               className="px-8 py-3 bg-teal-500 text-white font-medium rounded-lg shadow-lg hover:bg-teal-600 transition-colors"
             >
               View My Work
@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#contact"
+              href="mailto:avoycoc123@gmail.com"
               className="px-8 py-3 bg-transparent border-2 border-white text-white font-medium rounded-lg hover:bg-white/10 transition-colors"
             >
               Contact Me
